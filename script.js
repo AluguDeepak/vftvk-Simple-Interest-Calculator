@@ -1,6 +1,10 @@
 function compute()
 {
     var principal = document.getElementById("principal").value;
+    if(principal=="")
+    {
+        alert("Enter the amount");
+    }
     var rate=document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
