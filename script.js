@@ -14,7 +14,7 @@ function updateRate()
 function validate()
 {
     var v=document.getElementById("principal").value;
-    if(v=="")
+    if(v==="")
     {
         alert("enter the value");
     }
